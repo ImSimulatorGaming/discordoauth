@@ -181,15 +181,3 @@ function check_state($state)
         return false;
     }
 }
-
-
-  await interaction.reply({
-    content: "Check your DMs 📩",
-    ephemeral: true
-  });
-} catch (err) {
-  await interaction.reply({
-    content: "I couldn't DM you. Please enable DMs from server members.",
-    ephemeral: true
-  });
-}
